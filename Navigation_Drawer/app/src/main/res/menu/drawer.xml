@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="false"
+            android:icon="@drawable/ic_home_black"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/photos"
+            android:checked="false"
+            android:icon="@drawable/photos"
+            android:title="@string/photos" />
+
+        <item
+            android:id="@+id/videos"
+            android:checked="false"
+            android:icon="@drawable/videos"
+            android:title="@string/videos" />
+
+        <item
+            android:id="@+id/documents"
+            android:checked="false"
+            android:icon="@drawable/book"
+            android:title="@string/files" />
+
+
+        <item
+            android:id="@+id/settings"
+            android:checked="false"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/about"
+            android:checked="false"
+            android:icon="@drawable/app"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/aboutus"
+            android:checked="false"
+            android:icon="@drawable/us"
+            android:title="@string/aboutus" />
+
+    </group>
+</menu>
